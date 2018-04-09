@@ -5,4 +5,5 @@ def countdown
   while second > 0
     puts "#{second} seconds!"
     second -= 1
+    break
 end
